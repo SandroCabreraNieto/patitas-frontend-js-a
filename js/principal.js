@@ -21,6 +21,7 @@ window.addEventListener('load', function() {
             console.log("Tipo Documento:", tipoDocumento);
             console.log("Número Documento:", numeroDocumento);
 
+            window.location.href = '/login';
             
             try {
                 const response = await fetch('http://localhost:8082/login/cerrarSesion', { 
